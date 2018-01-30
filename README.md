@@ -6,9 +6,10 @@ This repository create for save my project in subject operating systems
 # Batch file
 - What is Batch file?
 - Basic batch file.
-- example basic batch file.
-- example nalmal batch file.
-- example advand batch file.
+- example merge file with batch file.
+- example run multi command with batch file.
+- example countdown shutdown windows with batch file.
+- example batch file in linux file. for install multiprogram.
 
 # What is Batch file?
 - batch file คือไฟล์ชุดคำสั่งใน Dos, unix , windows ซึ่งประด้วยชุดคำสั่งของ commands ที่เขียนใน command-line มาเก็บไว้ในรูปแบบของ plain text file 
