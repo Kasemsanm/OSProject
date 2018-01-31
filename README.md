@@ -17,15 +17,7 @@ This repository create for save my project in subject operating systems
 - windows xp or Newer versions: file name is
 - Linux : file name is .sh
 - Mac osx : file name is .sh
-Linux and Mac os x file name is same. because base of operating system is unix it same.
+- Linux and Mac os x file name is same. because base of operating system is unix it same.
 
 # Basic Batch file
-asd
-asd
 
-asd
-as
-d
-asd
-a
-sd
