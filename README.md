@@ -26,12 +26,27 @@ This repository create for save my project in subject operating systems
     @Echo Hello World
     ```
 
-    > Example basic batch file show looper.
+    > Example basic batch file For loop.
     ```bat
+    @Echo off
     @Echo This a loop show Hello world 10 times
-    Loop:
-        @Echo Hello World
-    Goto Loop
+    FOR /l %%a  in (1,1,10) do (
+        @Echo Hello World %%a
+    )
+    pause
+    ```
+    > Example basic batch file goto loop.
+    ```bat
+    @Echo off
+    @Echo This a loop show Hello world 10 times
+    %%a = 0
+    :Loop
+        %%a += 1
+        @Echo Hello World %%a
+    if %%a < 10(
+        Goto Loop
+    )
+    pause
     ```
 
 
