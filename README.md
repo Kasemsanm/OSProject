@@ -6,17 +6,26 @@ This repository create for save my project in subject operating systems
 # Batch file
 - What is Batch file?
 - Basic batch file.
-- example merge file with batch file.
-- example run multi command with batch file.
-- example countdown shutdown windows with batch file.
-- example batch file in linux file. for install multiprogram.
+- Example batch file on Windows
+- Exmaple batch file on Ubuntu(Linux)
+- Example batch file on Mac osx
 
 # What is Batch file?
-- batch file คือไฟล์ชุดคำสั่งใน Dos, unix , windows ซึ่งประด้วยชุดคำสั่งของ commands ที่เขียนใน command-line มาเก็บไว้ในรูปแบบของ plain text file 
-Batch file สามารถให้คำสั้งทุกคำั่งที่มีอยู่ใน command และ สามารถ ทำ if for และ goto หรือแม้แต่ไดให้แสดงข้อความตามี่ต้องการได้ และให้รันคำสั้งตามลำดับของคำสั่งที่มีอยู่ใน file ก็สามารถทำได้เช่นกัน
-- ในแต่ os commad ที่ใช้และ batch ก็จะแตกต่างกันไปเช่น 
-# windows
-  
+- A batch file is a kind of script file in DOS, OS/2 and Microsoft Windows. It consists of a series of commands to be executed by the command-line interpreter, stored in a plain text file. A batch file may contain any command the interpreter accepts interactively and use constructs that enable conditional branching and looping within the batch file, such as IF, FOR, and GOTO labels. The term "batch" is from batch processing, meaning "non-interactive execution", though a batch file may not process a batch of multiple data.
 
-# Basic Batch file.
-- 
+# Filename extensions
+- windows xp or Newer versions: file name is
+- Linux : file name is .sh
+- Mac osx : file name is .sh
+Linux and Mac os x file name is same. because base of operating system is unix it same.
+
+# Basic Batch file
+asd
+asd
+
+asd
+as
+d
+asd
+a
+sd
