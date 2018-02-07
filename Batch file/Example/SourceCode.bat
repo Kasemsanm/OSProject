@@ -28,6 +28,7 @@ REM End Delete file
 GOTO ExitAndMenu
 
 :DiceGame
+REM This Game is Guess Dice. User guess score of dice then computer dice. if score == Dice Computer stop Dice And Show Rount of Dice 
 cls
 SET /P UserGuess=Please Enter guess score of two dice (2 to 12 score) :
 FOR %%i IN (2 3 4 5 6 7 8 9 10 11 12) DO IF %UserGuess% == %%i GOTO StartGame
