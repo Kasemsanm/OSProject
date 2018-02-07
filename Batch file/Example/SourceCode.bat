@@ -18,7 +18,12 @@ GOTO menu
 GOTO ExitAndMenu
 
 :DeleteFile
-
+REM Delete File but not delete file in except file
+ECHO
+ECHO ============== Delete File ==============
+SET /P Except=Please Enter Except File :
+FOR %%i IN (*) DO IF NOT %%i == %Except% DEL "%%i"
+REM End Delete file
 GOTO ExitAndMenu
 
 :DiceGame
