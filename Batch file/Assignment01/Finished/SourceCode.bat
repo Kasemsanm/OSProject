@@ -31,22 +31,19 @@ GOTO ExitAndMenu
 
 :DeleteFile
 cls
-REM Delete File but not delete file in except file
 ECHO.
 ECHO ============== Delete File ==============
 SET /P Except=Please Enter Except File :
-FOR %%i IN (*) DO IF NOT %%i == %Except% OR  DEL "%%i"
-REM End Delete file
+FOR %%i IN (*) DO IF NOT %%i == %Except% DEL "%%i"
 GOTO ExitAndMenu
 
 :GuessDiceGame
-REM This Game is Guess Dice. User guess score of dice then computer dice. if score == Dice Computer stop Dice And Show Rount of Dice 
 cls
 ECHO.
 ECHO ============== Guess Dice Game ==============
 SET /P UserGuess=Please Enter guess score of two dice (2 to 12 score) :
 FOR %%i IN (2 3 4 5 6 7 8 9 10 11 12) DO IF %UserGuess% == %%i GOTO StartGame
-GOTO DiceGame
+GOTO GuessDiceGame
 :StartGame
 SET /A Rount=0
 
